@@ -1,16 +1,20 @@
 {
   "name": "script",
   "version": "1.0.0",
-  "description": "",
+  "description": "react-glo",
   "main": "script.js",
-  "dependencies": {
-    "eslint-plugin-react": "^7.21.5"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "eslint": "^7.12.0"
+    "eslint": "^7.12.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-react": "^7.21.5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SafoPost/glo-react.git"
   },
   "author": "SafoPost",
   "license": "ISC"

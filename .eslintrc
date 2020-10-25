@@ -6,8 +6,8 @@
     "node": true
   },
   "extends": ["eslint:recommended",
-    "plugin:react/recommended",
-    "react-app"
+    // "plugin:react/recommended",
+    // "react-app"
   ],
   "parserOptions": {
     "ecmaFeatures": {
@@ -17,8 +17,8 @@
     "sourceType": "module"
   },
   "plugins": [
-    // "react",
-    // "babel"
+    "react",
+    "babel"
   ],
   "rules": {
     "react/prop-types": 0,
